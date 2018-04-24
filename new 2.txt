@@ -1,0 +1,12 @@
+<div class="dropdown">
+			  <button onclick="myFunction()" class="dropbtn"> Account </button>
+			  <div id="myDropdown" class="dropdown-content">
+				<a href="changepwd.php"> Change Password </a>
+				<a href="changemail.php"> Change Email </a>
+				<a href="logout.php"> Logout </a>
+			  </div>
+			</div>
+			
+			<input class ="go" type="button" name="go" value="Go">
+			
+			<input class="brrwr" type="button" onclick="location.href='borrowersite.php';" value = "View Borrower's List">

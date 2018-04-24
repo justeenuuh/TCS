@@ -1,0 +1,27 @@
+*/echo "</div>";
+		echo "<center>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "</br>";
+		echo "<div id='page-selection'></div>";
+		echo	"<script>";
+				// init bootpag
+		echo		"$('#page-selection').bootpag({";
+		echo			"total: 10";
+		echo "}).on('page', function(event, /* page number here */ num){";
+		echo			 "$('.index').php"; // some ajax content loading...
+		echo		"});";
+		echo	"</script>";
+		echo "</center>";*/
